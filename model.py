@@ -9,4 +9,4 @@ def model(X_train, y_train, X_test):
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)
     y_score = clf.predict_proba(X_test)
-    return y_pred, y_score
+    return y_pred, y_score 
